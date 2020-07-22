@@ -393,7 +393,7 @@ main .post-content .post-title a {
   padding: 0.6rem 0.9rem;
   border-radius: 1.5rem;
   margin: 0 0.3rem;
-  font-family: var(--Lex);
+  font-family: 'Lexend', cursive ;
 }
 
 .site-content .pagination .pages {
@@ -405,7 +405,7 @@ main .post-content .post-title a {
 /*Sidebar*/
 
 .site-content > .sidebar .category-list {
-  font-family: var(--Liv);
+  font-family: 'Livvic', cursive;
 }
 
 .site-content > .sidebar .category-list .list-items {
@@ -456,7 +456,7 @@ main .post-content .post-title a {
   width: 80%;
   height: 1.9rem;
   padding: 0.3rem 0.5rem;
-  font-family: var(--Lex);
+  font-family: 'Lexend', cursive;
   font-size: 1rem;
 }
 
