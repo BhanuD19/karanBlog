@@ -5,7 +5,7 @@
 <nav class="nav" v-bind:class= "{collapsee : isToggled}">
   <div class="nav-menu flex-rowe">
     <div class="nav-brand">
-      <a href="#" class="text-gray">Karan Chandna</a>
+      <nuxt-link to="/" class="text-gray">Karan Chandna</nuxt-link>
     </div>
 <!--    Todo: add toggle-menu icon-->
     <div class="toggle-collapse">
