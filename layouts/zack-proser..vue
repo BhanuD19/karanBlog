@@ -23,6 +23,9 @@ export default {
 };
 </script>
 <style>
+
+@import "~/assets/fonts.css";
+
 html, body {
   margin: 0%;
   box-sizing: border-box;
