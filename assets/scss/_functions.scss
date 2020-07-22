@@ -1,0 +1,11 @@
+@import "~bootstrap/scss/functions";
+
+@function rem ($px) {
+  $remSize: $px / 18;
+  @return #{$remSize}rem;
+}
+
+@function px ($rem) {
+  $pxSize: $rem * 18;
+  @return #{$pxSize}px;
+}
