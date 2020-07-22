@@ -34,11 +34,6 @@ html, body {
 
 :root {
 
-/*  Fonts */
-  --Abel:'Abel',cursive;
-  --Liv: 'Livvic',cursive;
-  --Lex: 'Lexend',cursive;
-
 /*  Color Schemes*/
   --text-gray: #3f4954;
   --text-light: #686666da;
@@ -67,17 +62,17 @@ ul {
 }
 
 h1 {
-  font-family: var(--Lex);
+  font-family: 'Lexend', cursive;
   font-size: 2.5rem;
 }
 
 h3 {
-  font-family: var(--Abel);
+  font-family: 'Abel', cursive;
   font-size: 1.3rem;
 }
 
 h2 {
-  font-family: var(--Lex);
+  font-family: 'Lexend', cursive;
 }
 
 .btn {
@@ -85,17 +80,17 @@ h2 {
   border-radius: 2rem;
   padding: 1rem 3rem;
   font-size: 1rem;
-  font-family: var(--Liv);
+  font-family: 'Livvic', cursive;
   cursor: pointer;
   outline: none;
 }
 
 span {
-  font-family: var(--Abel);
+  font-family: 'Abel', cursive;
 }
 
 p {
-  font-family: var(--Lex);
+  font-family: 'Lexend', cursive;
   color: var(--text-light);
 }
 .containere {
