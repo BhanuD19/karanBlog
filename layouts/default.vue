@@ -24,6 +24,7 @@ export default {
 };
 </script>
 <style>
+@import "~/assets/fonts.css";
 
 html, body {
   margin: 0%;
@@ -33,6 +34,11 @@ html, body {
 }
 
 :root {
+
+/*  Fonts */
+  --Abel:'Abel',cursive;
+  --Liv: 'Livvic',cursive;
+  --Lex: 'Lexend',cursive;
 
 /*  Color Schemes*/
   --text-gray: #3f4954;
@@ -62,17 +68,17 @@ ul {
 }
 
 h1 {
-  font-family: 'Lexend', cursive;
+  font-family: var(--Lex);
   font-size: 2.5rem;
 }
 
 h3 {
-  font-family: 'Abel', cursive;
+  font-family: var(--Abel);
   font-size: 1.3rem;
 }
 
 h2 {
-  font-family: 'Lexend', cursive;
+  font-family: var(--Lex);
 }
 
 .btn {
@@ -80,17 +86,17 @@ h2 {
   border-radius: 2rem;
   padding: 1rem 3rem;
   font-size: 1rem;
-  font-family: 'Livvic', cursive;
+  font-family: var(--Liv);
   cursor: pointer;
   outline: none;
 }
 
 span {
-  font-family: 'Abel', cursive;
+  font-family: var(--Abel);
 }
 
 p {
-  font-family: 'Lexend', cursive;
+  font-family: var(--Lex);
   color: var(--text-light);
 }
 .containere {
