@@ -5,7 +5,10 @@
 <nav class="nav" v-bind:class= "{collapsee : isToggled}">
   <div class="nav-menu flex-rowe">
     <div class="nav-brand">
-      <nuxt-link to="/" class="text-gray">Karan Chandna</nuxt-link>
+      <nuxt-link to="/" class="text-gray">
+      <img src="/logo.png">
+      </nuxt-link>
+      <span><nuxt-link to="/" class="text-gray"> Karan's Blog </nuxt-link></span>
     </div>
 <!--    Todo: add toggle-menu icon-->
     <div class="toggle-collapse">
@@ -105,10 +108,23 @@ export default {
 }
 /*Hover effects for nav-links*/
 .nav .nav-items .nav-link:hover {
-  background-color: var(--midnight);
+  background-color: var(--midnight) !important;
 }
+
 .nav .nav-items .nav-link:hover a {
-  color: white;
+  color: white !important;
+}
+
+.nav .nav-brand {
+  display: flex;
+  margin: 0;
+}
+
+.nav .nav-brand span {
+  padding: 0.5rem 0.7rem;
+  font-size: 1.1rem;
+  position: relative;
+  font-family: var(--Abel);
 }
 
 .nav .nav-brand a{
@@ -117,6 +133,15 @@ export default {
   text-decoration: none;
   display: block;
   font-family: var(--Lex);
+}
+
+.nav .nav-brand span a :hover {
+  color: var(--text-gray) !important; 
+}
+
+.nav .nav-brand a img {
+  height: 40px;
+  width: 80px;
 }
 
 .nav .social {
@@ -151,6 +176,10 @@ export default {
 @media only screen and (max-width: 520px){
   .nav .toggle-collapse {
     width: 80% !important;
+  }
+
+  .nav .nav-brand span {
+    display: none;
   }
 }
 

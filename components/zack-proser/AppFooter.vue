@@ -100,7 +100,7 @@ footer.footere .newsletter .form-element input {
   color: white;
   font-family: var(--Jose);
   font-size: 1rem;
-  width: 74%;
+  width: 88%;
 }
 
 footer.footere .newsletter .form-element span {
@@ -166,6 +166,10 @@ footer.footere .move-up span:hover {
   footer.footere .containere > div {
     padding: 1rem 0.9rem !important;
   }
+
+  footer.footere .newsletter .form-element input {
+    width: 74%;
+  }   
 
   footer .rights {
     padding: 0 1.4rem;

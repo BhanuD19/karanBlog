@@ -52,9 +52,10 @@ html, body {
 }
 
 a {
-  text-decoration: none;
+  text-decoration: none !important;
   color: var(--text-gray);
 }
+
 
 .flex-rowe
  {
@@ -68,36 +69,41 @@ ul {
 }
 
 h1 {
-  font-family: var(--Lex);
-  font-size: 2.5rem;
+  font-family: var(--Lex)  !important;
+  font-size: 2.5rem  !important;
 }
 
 h3 {
-  font-family: var(--Abel);
-  font-size: 1.3rem;
+  font-family: var(--Abel)  !important;
+  font-size: 1.3rem  !important;
 }
 
 h2 {
-  font-family: var(--Lex);
+  font-family: var(--Lex)  !important;
+  font-size: 1.7rem  !important;
+}
+
+h4{
+  font-size: 1rem  !important;
 }
 
 .btn {
   border: none;
   border-radius: 2rem;
   padding: 1rem 3rem;
-  font-size: 1rem;
+  font-size: 1rem  !important;
   font-family: var(--Liv);
-  cursor: pointer;
-  outline: none;
+  cursor: pointer  !important;
+  outline: none  !important;
 }
 
 span {
-  font-family: var(--Abel);
+  font-family: var(--Abel)  !important;
 }
 
 p {
-  font-family: var(--Lex);
-  color: var(--text-light);
+  font-family: var(--Lex)  !important;
+  color: var(--text-light)  !important;
 }
 .containere {
   margin: 0 5vw;
