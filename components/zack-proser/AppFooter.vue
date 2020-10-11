@@ -41,7 +41,7 @@
   <div class="rights flex-rowe">
     <h4 class="text-gray">
       Copyrights Reserved &copy;
-      <a href="#" target="_blank">Kapil Chandna</a>
+      <a href="#" target="_blank">Karan Chandna</a>
     </h4>
   </div>
   <div class="move-up" @click="scrollToTop">
